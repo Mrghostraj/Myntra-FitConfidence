@@ -24,7 +24,7 @@
 | I use a size recommendation feature | 2 | **14.3%** |
 | I guess based on product images | 1 | **7.1%** |
 
-![Q5 Size Selection Method](assets/q5.png)
+![Q5 Size Selection Method](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q5.png)
 
 ### Confidence vs. Fit Mismatch Frequency (Q6 & Q7 — $n = 14$)
 - **Size Selection Confidence (Q6, 1–5 Scale):** `1`: 1 (7.1%) | `2`: 4 (28.6%) | `3`: 4 (28.6%) | `4`: 5 (35.7%) | `5`: 0 (0.0%) — **Mean = 2.93 / 5.0**. Zero respondents rated their confidence `5/5`, and **64.3% (9/14)** scored `3` or lower.
@@ -35,7 +35,7 @@
   - **Never:** 0 (0.0%)
   - **Combined Frequent/Occasional Mismatch:** **85.7% (12/14)**
 
-![Q6 Confidence and Q7 Fit Mismatch](../assets/q6_q7_confidence_and_mismatch.png)
+![Q6 Confidence and Q7 Fit Mismatch](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q6_q7.png)
 
 ---
 
@@ -56,7 +56,7 @@
 
 - **Size/Fit Return & Exchange History (Q9):** **100% of respondents (14/14)** have returned or exchanged a T-Shirt due to size or fit—**78.6% (11/14) *multiple times*** and **21.4% (3/14) *once***.
 
-![Q8 Fit Problems and Q9 Returns](../assets/q8_q9_problems_and_returns.png)
+![Q8 Fit Problems and Q9 Returns](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q8_q9.png)
 
 ### Actions When Unsure About Size (Q10 — Multi-Select) & Existing Size Chart Utility (Q11 — 1–5 Scale)
 | Coping Action When Unsure (Q10) | Count | Share |
@@ -71,7 +71,7 @@
 
 - **Usefulness of Existing Size Charts (Q11, 1–5 Scale):** `1`: 0 (0.0%) | `2`: 1 (7.1%) | `3`: 8 (57.1%) | `4`: 5 (35.7%) | `5`: 0 (0.0%) — **Mean = 3.29 / 5.0**. Most respondents view existing size charts as merely average (`3/5`), and **42.9% (6/14)** abandon purchases when unsure.
 
-![Q10 Coping Actions and Q11 Size Chart Utility](../assets/q10_q11_coping_and_chart_utility.png)
+![Q10 Coping Actions and Q11 Size Chart Utility](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q5.png)
 
 ---
 
