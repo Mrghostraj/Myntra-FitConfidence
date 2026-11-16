@@ -123,7 +123,7 @@
 | Fit feedback from other customers | 3 | **21.4%** |
 | Ability to provide feedback after purchase | 3 | **21.4%** |
 
-![Q16 Recommendation Trust Drivers](assets/q16.png)
+![Q16 Recommendation Trust Drivers](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q16.png)
 
 ---
 
