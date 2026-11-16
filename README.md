@@ -53,8 +53,7 @@ Because this is a small convenience sample, findings are directional rather than
 4. Use purchase history and body profile data only with appropriate permission, minimization, and user control.
 5. Treat reduction in returns as a hypothesis to test—not a guaranteed outcome.
 
-## How to present this project
-Describe it as a **Product Management case study / proposed product concept**. Do not claim Myntra affiliation, production deployment, validated return reduction, or implementation of AI components unless those are actually achieved.
 
 ## Author
-Product case study by Randhir Kumar. Replace/add portfolio and LinkedIn links as desired.
+Randhir Kumar
+Bachelors of Technology Jamshedpur
