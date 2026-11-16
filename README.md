@@ -55,5 +55,7 @@ Because this is a small convenience sample, findings are directional rather than
 
 
 ## Author
-Randhir Kumar
-Bachelors of Technology Jamshedpur
+## Randhir Kumar
+
+**B.Tech — Metallurgical & Materials Engineering**  
+**NIT Jamshedpur**
