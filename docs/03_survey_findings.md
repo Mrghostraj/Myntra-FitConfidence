@@ -91,7 +91,7 @@
 | Fit-related customer review summary | 6 | **42.9%** | Future NLP Summarization Module |
 | Comparison with my usual size across brands | 5 | **35.7%** | P1 / Optional Authorized Purchase History |
 
-![Q12 Biggest Challenge and Q13 Helpful Features](../assets/q12_q13_challenge_and_features.png)
+![Q12 Biggest Challenge and Q13 Helpful Features](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q12_q13.png)
 
 ---
 
@@ -111,7 +111,7 @@
 - **Distribution:** `1`: 0 (0.0%) | `2`: 0 (0.0%) | `3`: 2 (14.3%) | `4`: 4 (28.6%) | `5`: 8 (57.1%)
 - **Descriptive Mean:** **4.43 / 5.0** — **85.7% (12/14)** rated recommendation explanations `4` or `5` out of 5.
 
-![Q14 Input Comfort and Q15 Explanation Usefulness](../assets/q14_q15_inputs_and_explanation.png)
+![Q14 Input Comfort and Q15 Explanation Usefulness](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/q14_q15.png)
 
 ### What Builds Trust in a Size Recommendation (Q16 — Multi-Select, $n = 14$)
 | Trust Signal | Count | Share |
