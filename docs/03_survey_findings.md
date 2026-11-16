@@ -1,136 +1,139 @@
-# Primary User Research: Survey Findings
+# Survey Findings — Exploratory User Research (V1)
 
-## 1. Study Overview & Sample Profile
-An exploratory Google Forms survey (`Myntra FitConfidence — User Research Survey`) was conducted to understand online T-Shirt sizing friction, current decision-making workarounds, and trust drivers for personalized fit recommendations[cite: 3].
+## 1. Executive Summary & Sample Overview
+- **Total Submissions:** $N = 16$
+- **Qualified Analysis Sample ($n = 14$):** 14 respondents (87.5%) reported purchasing T-Shirts online in the past 6 months and completed the full 18-question survey. Two respondents answered "No" to recent online T-Shirt purchases and exited at screening.
+- **Age Distribution ($n = 14$):**
+  - **18–21:** 5 (35.7%)
+  - **22–25:** 5 (35.7%)
+  - **Below 18:** 3 (21.4%) *(sample eligibility deviation noted in `docs/02_research_plan_and_method.md`)*
+  - **26–30:** 1 (7.1%)
+- **Methodological Note:** All percentages below use **$n = 14$** as the denominator and are rounded to one decimal place. Because this is a small, non-probability convenience sample, findings represent directional product signals rather than market-wide estimates.
 
-* **Total Submissions:** $N = 16$
-* **Screening Logic:** Q2 filtered respondents based on whether they had purchased T-Shirts online within the past 6 months[cite: 3].
-* **Qualified Analysis Sample:** **$n = 14$ (87.5%)** answered "Yes" and completed the full 18-question survey[cite: 3]. Two respondents (12.5%) answered "No" and exited at screening.
-* **Methodological Note:** This is a small, non-probability convenience sample[cite: 1]. All percentages below use **$n = 14$** as the denominator and represent directional user research signals rather than market-wide estimates[cite: 3, 10]. Multi-select questions allow overlapping responses and therefore sum to more than 100%[cite: 3].
-
-### Respondent Demographics & Shopping Context ($n = 14$)
-* **Age Distribution:**
-  * **22–25:** 6 respondents (42.9%)
-  * **18–21:** 5 respondents (35.7%)
-  * **Below 18:** 2 respondents (14.3%)
-  * **26–30:** 1 respondent (7.1%)
-* **Platforms Used (Multi-Select, Q3):**
-  * **Flipkart:** 10/14 (71.4%)
-  * **Amazon:** 8/14 (57.1%)
-  * **Myntra:** 7/14 (50.0%)
-  * **Brand Websites (e.g., H&M, Zara):** 4/14 (28.6%)
-  * **Ajio:** 3/14 (21.4%)
-* **Purchase Frequency (Q4):**
-  * **Once every 2–3 months:** 7/14 (50.0%)
-  * **Occasionally (less than once every 3 months):** 4/14 (28.6%)
-  * **More than once a month:** 2/14 (14.3%)
-  * **Once a month:** 1/14 (7.1%)
+![User Research Overview Dashboard](../assets/survey_insights_dashboard.png)
 
 ---
 
-## 2. Current Size Selection Behavior & Confidence
+## 2. Current Size-Selection Behavior & Confidence (Q5–Q7)
 
-### How Shoppers Choose a Size (Q5)
-* **I check the size chart:** 6/14 (42.9%)
-* **I select my usual size:** 4/14 (28.6%)
-* **I use a size recommendation feature:** 3/14 (21.4%)
-* **I guess based on product images:** 1/14 (7.1%)
+### How Shoppers Usually Decide Which T-Shirt Size to Purchase (Q5 — Single-Select, $n = 14$)
+| Usual Size-Selection Method | Count | Share |
+|---|---:|---:|
+| I select my usual size | 7 | **50.0%** |
+| I check the size chart | 4 | **28.6%** |
+| I use a size recommendation feature | 2 | **14.3%** |
+| I guess based on product images | 1 | **7.1%** |
 
-### Confidence vs. Existing Size Chart Utility (5-Point Scales)
-| Metric | Mean Score | Distribution ($n = 14$) | Key Takeaway |
-|---|---|---|---|
-| **Q6. Confidence in selecting correct size** | **3.07 / 5.0** | `1`: 7.1% (1) \| `2`: 14.3% (2) \| `3`: 28.6% (4) \| `4`: 50.0% (7) \| `5`: 0.0% (0) | **0% of respondents** felt "very confident" (`5/5`); half sit at moderate-to-low confidence (`1–3`). |
-| **Q11. Usefulness of existing size charts** | **3.36 / 5.0** | `1`: 0.0% (0) \| `2`: 7.1% (1) \| `3`: 42.9% (6) \| `4`: 50.0% (7) \| `5`: 0.0% (0) | Size charts are viewed as moderately helpful (`3–4`), but never rated `5/5` due to cross-brand inconsistency. |
+![Q5 Size Selection Method](assets/q5.png)
 
----
+### Confidence vs. Fit Mismatch Frequency (Q6 & Q7 — $n = 14$)
+- **Size Selection Confidence (Q6, 1–5 Scale):** `1`: 1 (7.1%) | `2`: 4 (28.6%) | `3`: 4 (28.6%) | `4`: 5 (35.7%) | `5`: 0 (0.0%) — **Mean = 2.93 / 5.0**. Zero respondents rated their confidence `5/5`, and **64.3% (9/14)** scored `3` or lower.
+- **Received a T-Shirt That Did Not Fit as Expected (Q7):**
+  - **Frequently:** 7 (50.0%)
+  - **Sometimes:** 5 (35.7%)
+  - **Rarely:** 2 (14.3%)
+  - **Never:** 0 (0.0%)
+  - **Combined Frequent/Occasional Mismatch:** **85.7% (12/14)**
 
-## 3. Core Pain Points & Downstream Impact
-
-### Fit Mismatch & Return Frequency
-* **Unexpected Fit Frequency (Q7):** **12/14 (85.7%)** have received a T-Shirt that did not fit as expected—**5/14 (35.7%) *Frequently***, **7/14 (50.0%) *Sometimes***, and **2/14 (14.3%) *Rarely***.
-* **Size/Fit Returns & Exchanges (Q9):** **100% of active buyers (14/14)** have returned or exchanged a T-Shirt due to size or fit:
-  * **Yes, multiple times:** 10/14 (71.4%)
-  * **Yes, once:** 4/14 (28.6%)
-
-### Specific Fit Problems Experienced (Multi-Select, Q8)
-| Fit Problem | Count ($n=14$) | Share |
-|---|---|---|
-| **Size differed across brands** | 11 | **78.6%** |
-| **Size chart was confusing** | 5 | **35.7%** |
-| **T-Shirt was too loose** | 5 | **35.7%** |
-| **Length was too long** | 3 | **21.4%** |
-| **Length was too short** | 1 | **7.1%** |
-| **T-Shirt was too tight** | 1 | **7.1%** |
-| **Sleeve fit was uncomfortable** | 1 | **7.1%** |
-| **Shrinkage after wash** | 1 | **7.1%** |
-| *No fit-related problems* | 2* | *14.3%* |
-
-*\*Note: One respondent selected "No fit-related problems" alongside specific sizing issues.*
-
-### Single Biggest Challenge in Size Selection (Q12)
-1. **Different sizing across brands:** **10/14 (71.4%)**
-2. **Uncertainty about how the T-Shirt will look on me:** **3/14 (21.4%)**
-3. **Lack of fit-related customer reviews:** **1/14 (7.1%)**
-
-### Coping Behaviors & Cart Abandonment When Unsure (Multi-Select, Q10)
-When uncertain about sizing, shoppers fall back on high-friction workarounds or abandon the purchase:
-* **Check the size chart:** 8/14 (57.1%)
-* **Read customer reviews:** 8/14 (57.1%)
-* **Ask friends/family:** 7/14 (50.0%)
-* **Order my usual size anyway:** 4/14 (28.6%)
-* **Avoid purchasing the product (abandonment):** 4/14 (28.6%)
-* **Search for product details online:** 1/14 (7.1%)
-* **Order multiple sizes (bracketing):** 1/14 (7.1%)
+![Q6 Confidence and Q7 Fit Mismatch](../assets/q6_q7_confidence_and_mismatch.png)
 
 ---
 
-## 4. Feature Demand, Data Sharing Comfort & Trust Drivers
+## 3. Fit Friction, Returns & Coping Behaviors (Q8–Q11)
 
-### Most Helpful Information for Size Selection (Multi-Select, Q13)
-| Desired Information / Feature | Count ($n=14$) | Share | Maps to FitConfidence Scope |
-|---|---|---|---|
-| **Personalized size recommendation** | 11 | **78.6%** | Core MVP Recommendation Engine |
-| **Visual representation of the expected fit** | 8 | **57.1%** | Future Scope (GenAI Fit Simulation) |
-| **Clear indication: Runs Small / True to Size / Runs Large** | 6 | **42.9%** | MVP Garment Ease & Fit Cues |
-| **Comparison with my usual size across brands** | 6 | **42.9%** | P1 / Authorized Purchase History |
-| **Fit-related customer review summary** | 4 | **28.6%** | P1 / Future NLP Review Summary |
+### Reported Fit Problems (Q8 — Multi-Select, $n = 14$) & Return History (Q9 — Single-Select, $n = 14$)
+| Fit-Related Problem (Q8) | Count | Share |
+|---|---:|---:|
+| Size differed across brands | 9 | **64.3%** |
+| Size chart was confusing | 7 | **50.0%** |
+| T-Shirt was too loose | 5 | **35.7%** |
+| Length was too long | 3 | **21.4%** |
+| T-Shirt was too tight | 2 | **14.3%** |
+| No fit-related problems | 2 | **14.3%** |
+| Length was too short | 1 | **7.1%** |
+| Sleeve fit was uncomfortable | 1 | **7.1%** |
+| Shrinkage after wash | 1 | **7.1%** |
 
-### Inputs Users Are Comfortable Providing (Multi-Select, Q14)
-| Personal Input | Count ($n=14$) | Share | Product Design Implication |
-|---|---|---|---|
-| **Fit preference (Slim / Regular / Relaxed)** | 10 | **71.4%** | Mandatory core input (low friction, high signal) |
-| **Chest measurement** | 9 | **64.3%** | Primary garment-matching anchor |
-| **Height** | 8 | **57.1%** | Core input for garment length estimation |
-| **Weight** | 6 | **42.9%** | Keep **optional** (highest drop-off risk among body metrics) |
-| **Previous purchase information (if available)** | 5 | **35.7%** | Strictly **opt-in / permissioned** |
-| **My usual T-Shirt size** | 4 | **28.6%** | Useful fallback/baseline anchor |
+- **Size/Fit Return & Exchange History (Q9):** **100% of respondents (14/14)** have returned or exchanged a T-Shirt due to size or fit—**78.6% (11/14) *multiple times*** and **21.4% (3/14) *once***.
 
-### Demand for Explainability & Trust Signals (Q15 & Q16)
-* **Usefulness of Recommendation Explanation (Q15):** Rated **4.29 / 5.0** on average—the highest-scoring Likert item in the survey:
-  * `5` (Extremely useful): **6/14 (42.9%)**
-  * `4` (Very useful): **6/14 (42.9%)**
-  * `3` (Moderately useful): **2/14 (14.3%)**
-  * **85.7% (12/14)** rated recommendation explanations `4` or `5` out of 5.
-* **What Builds Trust in a Size Recommendation (Multi-Select, Q16):**
-  1. **Recommendations based on my previous purchases:** 11/14 (78.6%)
-  2. **Recommendations based on actual measurements:** 9/14 (64.3%)
-  3. **Clear explanation of why the size is recommended:** 7/14 (50.0%)
-  4. **High accuracy across different brands:** 6/14 (42.9%)
-  5. **Fit feedback from other customers:** 4/14 (28.6%)
-  6. **Ability to provide feedback after purchase:** 2/14 (14.3%)
+![Q8 Fit Problems and Q9 Returns](../assets/q8_q9_problems_and_returns.png)
 
----
+### Actions When Unsure About Size (Q10 — Multi-Select) & Existing Size Chart Utility (Q11 — 1–5 Scale)
+| Coping Action When Unsure (Q10) | Count | Share |
+|---|---:|---:|
+| Check the size chart | 10 | **71.4%** |
+| Read customer reviews | 9 | **64.3%** |
+| Ask friends/family | 9 | **64.3%** |
+| Avoid purchasing the product (abandonment) | 6 | **42.9%** |
+| Order my usual size anyway | 3 | **21.4%** |
+| Search for product details online | 1 | **7.1%** |
+| Order multiple sizes (bracketing) | 1 | **7.1%** |
 
-## 5. Qualitative Synthesis (Q17 & Q18)
-Open-ended responses clustered around four actionable product themes:
-1. **Visual Fit & Drape Certainty (5 mentions):** Respondents repeatedly asked for *"visual representations of the expected fit"* and *"AI to check if this T-Shirt is fit for me or not"* to eliminate guesswork on how a garment drapes on their body.
-2. **Multi-Part Measurement Friction (1 detailed insight):** One respondent highlighted that standard size charts require measuring shoulder, chest, waist, and arm length—which rarely map to a single standard size—suggesting custom-fit guidance or smarter multi-point reconciliation.
-3. **Measurement & Sizing Standardization (2 mentions):** Users requested *"accurate, standardized, and interactive sizing"* across brands.
-4. **Fabric & Quality Assurance (4 mentions — Out-of-Scope Guardrail):** Several users cited fabric quality, color bleeding, and post-wash shrinkage (`Q8`, `Q17`, `Q18`). While shrinkage impacts post-wash fit, fabric durability is documented as a separate catalog quality concern rather than a sizing-engine feature.
+- **Usefulness of Existing Size Charts (Q11, 1–5 Scale):** `1`: 0 (0.0%) | `2`: 1 (7.1%) | `3`: 8 (57.1%) | `4`: 5 (35.7%) | `5`: 0 (0.0%) — **Mean = 3.29 / 5.0**. Most respondents view existing size charts as merely average (`3/5`), and **42.9% (6/14)** abandon purchases when unsure.
+
+![Q10 Coping Actions and Q11 Size Chart Utility](../assets/q10_q11_coping_and_chart_utility.png)
 
 ---
 
-## 6. How Survey Findings Shape Product Decisions
-* **Prioritize Explainable Measurement Matching in MVP:** Because **85.7%** value explanations (`4–5/5`) and **64.3%** trust recommendations grounded in actual measurements, the MVP centers on deterministic garment-to-body measurement rules paired with plain-language rationale.
-* **Make Weight Optional & Purchase History Opt-In:** Users are far more willing to share fit preference (**71.4%**) and chest/height (**64.3% / 57.1%**) than weight (**42.9%**) or purchase history (**35.7%**). Making weight optional and purchase history permission-gated respects user comfort while preserving recommendation trust (**78.6%** cite purchase history as a top trust driver).
-* **Stage Visual Fit Simulation as Post-MVP:** While **57.1%** want visual fit representations, generative visual accuracy is technically high-risk and must be clearly labeled as an estimate after the core sizing engine is validated[cite: 6, 9].
+## 4. Core Challenge & Feature Discovery (Q12–Q13)
+
+### Single Biggest Size-Selection Challenge (Q12 — Single-Select, $n = 14$)
+- **Different sizing across brands:** **11 (78.6%)**
+- **Uncertainty about how the T-Shirt will look on me:** **2 (14.3%)**
+- **Lack of fit-related customer reviews:** **1 (7.1%)**
+
+### Most Helpful Information When Selecting a Size (Q13 — Multi-Select, $n = 14$)
+| Requested Information / Feature | Count | Share | Product Scope Mapping |
+|---|---:|---:|---|
+| Personalized size recommendation | 12 | **85.7%** | Core MVP Recommendation Engine |
+| Visual representation of the expected fit | 9 | **64.3%** | Advanced / Future Scope (GenAI Simulation) |
+| Clear indication: *Runs Small / True to Size / Runs Large* | 6 | **42.9%** | MVP / P1 Garment Ease Cue |
+| Fit-related customer review summary | 6 | **42.9%** | Future NLP Summarization Module |
+| Comparison with my usual size across brands | 5 | **35.7%** | P1 / Optional Authorized Purchase History |
+
+![Q12 Biggest Challenge and Q13 Helpful Features](../assets/q12_q13_challenge_and_features.png)
+
+---
+
+## 5. Data Comfort, Explainability & Trust Drivers (Q14–Q16)
+
+### Comfort Providing Personal Inputs (Q14 — Multi-Select, $n = 14$)
+| Input Signal | Count | Share | UX & Data Governance Decision |
+|---|---:|---:|---|
+| Chest measurement | 11 | **78.6%** | Primary sizing anchor (with measurement guide) |
+| Height | 10 | **71.4%** | Core input (supports garment length cue) |
+| Fit preference (`Slim` / `Regular` / `Relaxed`) | 10 | **71.4%** | Core input (controls target garment ease) |
+| Weight | 8 | **57.1%** | **Optional** (lower comfort; supplementary BMI only) |
+| Previous purchase information | 4 | **28.6%** | **Strictly opt-in** (requires explicit permission) |
+| My usual T-Shirt size | 3 | **21.4%** | Optional baseline reference |
+
+### Usefulness of Recommendation Explanation (Q15 — 1–5 Scale, $n = 14$)
+- **Distribution:** `1`: 0 (0.0%) | `2`: 0 (0.0%) | `3`: 2 (14.3%) | `4`: 4 (28.6%) | `5`: 8 (57.1%)
+- **Descriptive Mean:** **4.43 / 5.0** — **85.7% (12/14)** rated recommendation explanations `4` or `5` out of 5.
+
+![Q14 Input Comfort and Q15 Explanation Usefulness](../assets/q14_q15_inputs_and_explanation.png)
+
+### What Builds Trust in a Size Recommendation (Q16 — Multi-Select, $n = 14$)
+| Trust Signal | Count | Share |
+|---|---:|---:|
+| Recommendations based on my previous purchases | 10 | **71.4%** |
+| Recommendations based on actual measurements | 10 | **71.4%** |
+| High accuracy across different brands | 8 | **57.1%** |
+| Clear explanation of why the size is recommended | 5 | **35.7%** |
+| Fit feedback from other customers | 3 | **21.4%** |
+| Ability to provide feedback after purchase | 3 | **21.4%** |
+
+![Q16 Recommendation Trust Drivers](assets/q16.png)
+
+---
+
+## 6. Product Implications & Guardrails
+1. **Anchor MVP in Actual Measurements + Transparent Rationale:** **71.4%** trust recommendations grounded in actual measurements, and **85.7%** rate explanations `4–5/5` (mean **4.43/5**). The MVP prioritizes deterministic garment-to-body matching with clear measurement explanations.
+2. **Capture Fit Preference Explicitly:** **71.4%** are comfortable sharing fit preference (`Slim` / `Regular` / `Relaxed`), directly addressing the **35.7%** who reported T-Shirts arriving *too loose*.
+3. **Keep Weight Optional & Purchase History Opt-In:** While **71.4%** trust purchase-history-informed recommendations, only **28.6%** are initially comfortable sharing purchase data (and **57.1%** for weight). Making weight optional and gating purchase history behind explicit consent balances trust with low onboarding friction.
+4. **Stage Visual Fit Simulation as Post-MVP:** **64.3%** want a visual representation of expected fit, but generative visual accuracy carries high risk and must remain an optional, clearly labeled simulation after the core sizing engine is validated.
+
+### Analytical Cautions
+- Percentages are rounded to one decimal place against $n = 14$.
+- Multi-select responses overlap and exceed 100% in aggregate.
+- Survey findings validate user problem perception and feature interest; they do **not** prove production adoption, conversion lift, or return-rate reduction.
