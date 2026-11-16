@@ -38,7 +38,13 @@ Online apparel shoppers cannot physically assess garment fit before purchase. Br
 | `LICENSE` | MIT license for original documentation (review before public use) |
 
 ## Research snapshot
-The survey contains 16 submissions, 14 of whom indicated an online T-Shirt purchase within the last six months and had eligible responses for the core analysis. The small convenience sample is exploratory and not representative. Read `docs/03_survey_findings.md` for exact denominator and limitations.
+An exploratory Google Forms survey collected 16 submissions, of which **14 respondents (87.5%)** had purchased T-Shirts online in the past 6 months and completed the full questionnaire ($n = 14$). Within this directional convenience sample:
+- **100% (14/14)** had returned or exchanged a T-Shirt due to size or fit (**71.4%** multiple times).
+- **71.4% (10/14)** named cross-brand sizing differences as their single biggest challenge (and **78.6%** reported experiencing it).
+- **85.7% (12/14)** rated an explanation of *why* a size is recommended as `4` or `5` out of 5 (mean **4.29 / 5.0**).
+- **28.6% (4/14)** reported avoiding a purchase altogether when unsure of size.
+
+Because this is a small convenience sample, findings are directional rather than statistically representative[cite: 1, 10]. See `docs/03_survey_findings.md` for full methodology, denominators, and limitations[cite: 1].
 
 ## Product principles
 1. Data-backed recommendations; do not invent missing product measurements.
