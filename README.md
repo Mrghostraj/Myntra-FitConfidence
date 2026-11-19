@@ -8,7 +8,7 @@
 
 > **Status: Product Discovery & Planning.** This repository documents an independent Product Management case study and proposed product concept. The MVP, recommendation engine, CV estimation, and GenAI fit simulation are not yet implemented.
 
-![Myntra FitConfidence Concept UI](assets/prototype_design.png)
+![Myntra FitConfidence Concept UI](https://github.com/Mrghostraj/Myntra-FitConfidence/blob/main/assets/prototype_design.png)
 *Conceptual mobile flow: PDP Entry → Body Profile & Fit Preference → Explainable Size Recommendation & Optional AI Fit Simulation.*
 
 Myntra FitConfidence is a proposed fit-guidance experience designed to help online shoppers choose a Men's T-Shirt size with greater confidence—combining measurement-aware size recommendations, garment-specific dimensions, fit preference, permissioned purchase-history signals, and an optional, clearly labeled AI visual fit simulation.
